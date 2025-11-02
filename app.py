@@ -1,5 +1,5 @@
 import streamlit as st
-from preprocess import preprocess2,preprosess
+from preprocess import preprosess
 import helper
 from helper import get_medal_tally
 import matplotlib.pyplot as plt
@@ -9,7 +9,6 @@ import plotly.figure_factory as ff
 
 
 df = preprosess()
-df2=preprocess2()
 # --- Sidebar ---
 st.sidebar.title("🏅 Olympics Analysis")
 st.sidebar.image(

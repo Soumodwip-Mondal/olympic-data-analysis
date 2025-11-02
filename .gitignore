@@ -1,0 +1,24 @@
+# Ignore virtual environment folders
+venv/
+env/
+.venv/
+.env/
+
+# Byte-compiled files
+__pycache__/
+*.pyc
+
+# System files
+.DS_Store
+Thumbs.db
+
+# IDE / Editor settings
+.vscode/
+.idea/
+
+# Data files (optional)
+*.pkl
+*.csv
+
+# Streamlit logs
+.streamlit/
